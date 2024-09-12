@@ -16,7 +16,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fxq-ij-H52">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Fxq-ij-H52">
                                 <rect key="frame" x="203" y="748" width="150" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qKj-zR-ZYc">
@@ -51,8 +51,8 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WCG-a6-IZ2">
-                                <rect key="frame" x="42" y="658" width="310" height="70"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="WCG-a6-IZ2">
+                                <rect key="frame" x="40" y="658" width="310" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xyg-2e-6oe">
                                         <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
@@ -112,7 +112,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x0I-Sn-pvd">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="x0I-Sn-pvd">
                                 <rect key="frame" x="41" y="580" width="310" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b0a-QA-r79">
@@ -173,7 +173,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="jHR-Ss-cwl">
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="jHR-Ss-cwl">
                                 <rect key="frame" x="40" y="421" width="313" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="801-x0-PKg">
@@ -231,14 +231,7 @@
                                     </button>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34z-SV-wPQ">
-                                <rect key="frame" x="244" y="327" width="108" height="64"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RHa-Le-K3Z">
+                            <stackView opaque="NO" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" insetsLayoutMarginsFromSafeArea="NO" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RHa-Le-K3Z">
                                 <rect key="frame" x="41" y="499" width="310" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MJu-Jx-deu">
@@ -300,7 +293,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ifT-Ha-fZZ">
-                                <rect key="frame" x="40" y="748" width="151" height="59"/>
+                                <rect key="frame" x="40" y="754" width="151" height="59"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -313,9 +306,42 @@
                                     <action selector="ButtonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ere-XN-7pc"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34z-SV-wPQ">
+                                <rect key="frame" x="245" y="349" width="108" height="64"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="31"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="highlightedColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="PTT-A1-hSe"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Fxq-ij-H52" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="689" id="0Sa-gj-ODF"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="bottom" secondItem="jHR-Ss-cwl" secondAttribute="bottom" constant="327" id="13Z-a0-gcS"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="trailing" secondItem="34z-SV-wPQ" secondAttribute="trailing" constant="40" id="18M-bd-wl5"/>
+                            <constraint firstItem="x0I-Sn-pvd" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="521" id="DpQ-m3-F0X"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="bottom" secondItem="x0I-Sn-pvd" secondAttribute="bottom" constant="168" id="EIH-5O-UQy"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="trailing" secondItem="WCG-a6-IZ2" secondAttribute="trailing" constant="43" id="FRb-dR-BUJ"/>
+                            <constraint firstItem="jHR-Ss-cwl" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="362" id="GQG-bZ-PrT"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="trailing" secondItem="x0I-Sn-pvd" secondAttribute="trailing" constant="42" id="Gl1-Ne-abh"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="bottom" secondItem="WCG-a6-IZ2" secondAttribute="bottom" constant="90" id="Pqb-po-bYd"/>
+                            <constraint firstItem="jHR-Ss-cwl" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="40" id="RSG-hG-Jk5"/>
+                            <constraint firstItem="34z-SV-wPQ" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="290" id="TTS-hc-FZR"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="trailing" secondItem="RHa-Le-K3Z" secondAttribute="trailing" constant="42" id="Y3e-zT-5NE"/>
+                            <constraint firstItem="Fxq-ij-H52" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="689" id="a0g-PQ-dK9"/>
+                            <constraint firstItem="RHa-Le-K3Z" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="440" id="bg8-pe-fp1"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="trailing" secondItem="jHR-Ss-cwl" secondAttribute="trailing" constant="40" id="cGB-Wp-W0Y"/>
+                            <constraint firstItem="WCG-a6-IZ2" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="599" id="cOE-Ui-u9h"/>
+                            <constraint firstItem="jHR-Ss-cwl" firstAttribute="top" secondItem="PTT-A1-hSe" secondAttribute="top" constant="362" id="eYv-pw-nQc"/>
+                            <constraint firstItem="RHa-Le-K3Z" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="41" id="i3s-40-QWq"/>
+                            <constraint firstItem="x0I-Sn-pvd" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="41" id="mEt-dr-UEy"/>
+                            <constraint firstItem="WCG-a6-IZ2" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="40" id="oW1-ry-l56"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="bottom" secondItem="RHa-Le-K3Z" secondAttribute="bottom" constant="249" id="sVD-Mc-9Iy"/>
+                            <constraint firstItem="34z-SV-wPQ" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="245" id="tDY-HQ-bO2"/>
+                            <constraint firstItem="Fxq-ij-H52" firstAttribute="bottom" secondItem="PTT-A1-hSe" secondAttribute="bottom" id="uBo-rl-le3"/>
+                            <constraint firstItem="PTT-A1-hSe" firstAttribute="bottom" secondItem="34z-SV-wPQ" secondAttribute="bottom" constant="405" id="vtE-oW-TFl"/>
+                            <constraint firstItem="Fxq-ij-H52" firstAttribute="leading" secondItem="PTT-A1-hSe" secondAttribute="leading" constant="203" id="wAN-SR-3Pr"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="Label" destination="34z-SV-wPQ" id="AAe-cs-MhZ"/>
