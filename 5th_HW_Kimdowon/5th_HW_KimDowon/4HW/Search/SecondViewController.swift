@@ -173,7 +173,7 @@ class MovieDetailViewController: UIViewController {
     
     let movieImageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.translatesAutoresizingMaskIntoConstraints = false
         imageView.backgroundColor = .gray // Placeholder background color
         return imageView
@@ -250,36 +250,36 @@ class MovieDetailViewController: UIViewController {
         return button
     }()
     
-    let rateImage: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "Vector 1 (Stroke)")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView
+    let rateImage: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "Vector 1 (Stroke)"), for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle(" Rate", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        return button
     }()
     
-    let myListImage: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "plus")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView
+    let myListImage: UIButton = {
+        let button = UIButton()
+        button.setImage(UIImage(named: "plus"), for: .normal)
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setTitle("My List", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        return button
     }()
     
-    let shareImage: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "Vector 2 (Stroke)")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView
+    let shareImage: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "Vector 2 (Stroke)"), for: .normal)
+        button.setTitle("Share", for: .normal)
+        button.setTitleColor(.white, for: .normal)
+        return button
     }()
     
     let episodeImage: UIImageView = {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "Frame 3")
-        imageView.translatesAutoresizingMaskIntoConstraints = false
-        return imageView
-    }()
-    let exiticon: UIImageView = {
-        let imageView = UIImageView()
-        imageView.image = UIImage(named: "video control buttons")
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -289,6 +289,18 @@ class MovieDetailViewController: UIViewController {
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
+    let exitbutton: UIButton = {
+        let button = UIButton()
+        button.translatesAutoresizingMaskIntoConstraints = false
+        button.setImage(UIImage(named: "video control buttons"), for: .normal)
+        button.addTarget(self, action: #selector(dismissModal), for: .touchUpInside)
+        return button
+        }()
+    
+    @objc func dismissModal() {
+        self.dismiss(animated: true, completion: nil)
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -319,14 +331,15 @@ class MovieDetailViewController: UIViewController {
         view.addSubview(myListImage)
         view.addSubview(shareImage)
         view.addSubview(episodeImage)
+        view.addSubview(exitbutton)
     }
     
     func setupConstraints() {
         NSLayoutConstraint.activate([
             // 영화 이미지뷰
             movieImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 16),
-            movieImageView.centerXAnchor.constraint(equalTo: view.centerXAnchor),
-            movieImageView.widthAnchor.constraint(equalTo: view.widthAnchor, multiplier: 0.9),
+            movieImageView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            movieImageView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
             movieImageView.heightAnchor.constraint(equalToConstant: 200),
             
             // 플레이 버튼
@@ -341,23 +354,25 @@ class MovieDetailViewController: UIViewController {
             titleLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             
             // 설명 텍스트
-//            descriptionLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 16),
-//            descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
-//            descriptionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
+            descriptionLabel.topAnchor.constraint(equalTo: downloadButton.bottomAnchor, constant: 16),
+            descriptionLabel.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
+            descriptionLabel.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -16),
             
             // Netflix 로고
             netflixLogo.topAnchor.constraint(equalTo: movieImageView.bottomAnchor, constant: 16),
-            netflixLogo.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+            netflixLogo.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             
             // Series 이미지
             seriesImage.leadingAnchor.constraint(equalTo: netflixLogo.trailingAnchor, constant: 8),
             seriesImage.centerYAnchor.constraint(equalTo: netflixLogo.centerYAnchor),
+            seriesImage.widthAnchor.constraint(equalToConstant: 50),
+            seriesImage.heightAnchor.constraint(equalToConstant: 10),
             
             // 메타데이터 이미지
             metadataImage.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 8),
-            metadataImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
-            metadataImage.widthAnchor.constraint(equalToConstant: 190),
-            metadataImage.heightAnchor.constraint(equalToConstant: 15),
+            metadataImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 8),
+            metadataImage.widthAnchor.constraint(equalToConstant: 200),
+            metadataImage.heightAnchor.constraint(equalToConstant: 13),
             
             // 큰 Play 버튼
             playButtonLarge.topAnchor.constraint(equalTo: metadataImage.bottomAnchor, constant: 16),
@@ -374,24 +389,31 @@ class MovieDetailViewController: UIViewController {
             downloadButton.heightAnchor.constraint(equalToConstant: 40),
             downloadButton.leadingAnchor.constraint(equalTo: view.leadingAnchor),
             downloadButton.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+                        
+            // My List 이미지
+            myListImage.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
+            myListImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
             
             // Rate 이미지
-            rateImage.topAnchor.constraint(equalTo: downloadButton.bottomAnchor, constant: 16),
-            rateImage.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 16),
-            
-            // My List 이미지
-            myListImage.leadingAnchor.constraint(equalTo: rateImage.trailingAnchor, constant: 16),
-            myListImage.centerYAnchor.constraint(equalTo: rateImage.centerYAnchor),
-            
+            rateImage.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
+            rateImage.leadingAnchor.constraint(equalTo: myListImage.trailingAnchor, constant: 16),
+
             // Share 이미지
-            shareImage.leadingAnchor.constraint(equalTo: myListImage.trailingAnchor, constant: 16),
-            shareImage.centerYAnchor.constraint(equalTo: myListImage.centerYAnchor),
+            shareImage.topAnchor.constraint(equalTo: descriptionLabel.bottomAnchor, constant: 16),
+            shareImage.leadingAnchor.constraint(equalTo: rateImage.trailingAnchor, constant: 16),
             
             // Episode 이미지
             episodeImage.topAnchor.constraint(equalTo: shareImage.bottomAnchor, constant: 16),
             episodeImage.centerXAnchor.constraint(equalTo: view.centerXAnchor),
             episodeImage.widthAnchor.constraint(equalToConstant: 200),
-            episodeImage.heightAnchor.constraint(equalToConstant: 50)
+            episodeImage.heightAnchor.constraint(equalToConstant: 50),
+            
+            //모달 창 닫기
+            exitbutton.topAnchor.constraint(equalTo: movieImageView.topAnchor, constant: 8),
+            exitbutton.trailingAnchor.constraint(equalTo: movieImageView.trailingAnchor, constant: -8),
+            exitbutton.widthAnchor.constraint(equalToConstant: 50),
+            exitbutton.heightAnchor.constraint(equalToConstant: 50)
         ])
     }
 }
+

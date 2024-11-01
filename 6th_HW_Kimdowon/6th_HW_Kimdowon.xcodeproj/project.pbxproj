@@ -7,62 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		3B68E3F92CB01B9B00FE4003 /* PBXContainerItemProxy */ = {
+		91F70B0E2CCF87D800DE7095 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B68E3DA2CB01B9900FE4003 /* Project object */;
+			containerPortal = 91F70AEF2CCF87D700DE7095 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B68E3E12CB01B9900FE4003;
-			remoteInfo = 4HW;
+			remoteGlobalIDString = 91F70AF62CCF87D700DE7095;
+			remoteInfo = 6th_HW_Kimdowon;
 		};
-		3B68E4032CB01B9B00FE4003 /* PBXContainerItemProxy */ = {
+		91F70B182CCF87D800DE7095 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3B68E3DA2CB01B9900FE4003 /* Project object */;
+			containerPortal = 91F70AEF2CCF87D700DE7095 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3B68E3E12CB01B9900FE4003;
-			remoteInfo = 4HW;
+			remoteGlobalIDString = 91F70AF62CCF87D700DE7095;
+			remoteInfo = 6th_HW_Kimdowon;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B68E3E22CB01B9900FE4003 /* 4HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 4HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B68E3F82CB01B9B00FE4003 /* 4HWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4HWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B68E4022CB01B9B00FE4003 /* 4HWUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 4HWUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F70AF72CCF87D700DE7095 /* 6th_HW_Kimdowon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 6th_HW_Kimdowon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F70B0D2CCF87D800DE7095 /* 6th_HW_KimdowonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6th_HW_KimdowonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F70B172CCF87D800DE7095 /* 6th_HW_KimdowonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 6th_HW_KimdowonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		91F70B1F2CCF87D800DE7095 /* Exceptions for "6th_HW_Kimdowon" folder in "6th_HW_Kimdowon" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 91F70AF62CCF87D700DE7095 /* 6th_HW_Kimdowon */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3B68E3E42CB01B9900FE4003 /* 4HW */ = {
+		91F70AF92CCF87D700DE7095 /* 6th_HW_Kimdowon */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 4HW;
+			exceptions = (
+				91F70B1F2CCF87D800DE7095 /* Exceptions for "6th_HW_Kimdowon" folder in "6th_HW_Kimdowon" target */,
+			);
+			path = 6th_HW_Kimdowon;
 			sourceTree = "<group>";
 		};
-		3B68E3FB2CB01B9B00FE4003 /* 4HWTests */ = {
+		91F70B102CCF87D800DE7095 /* 6th_HW_KimdowonTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 4HWTests;
+			path = 6th_HW_KimdowonTests;
 			sourceTree = "<group>";
 		};
-		3B68E4052CB01B9B00FE4003 /* 4HWUITests */ = {
+		91F70B1A2CCF87D800DE7095 /* 6th_HW_KimdowonUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = 4HWUITests;
+			path = 6th_HW_KimdowonUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3B68E3DF2CB01B9900FE4003 /* Frameworks */ = {
+		91F70AF42CCF87D700DE7095 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E3F52CB01B9B00FE4003 /* Frameworks */ = {
+		91F70B0A2CCF87D800DE7095 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E3FF2CB01B9B00FE4003 /* Frameworks */ = {
+		91F70B142CCF87D800DE7095 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3B68E3D92CB01B9900FE4003 = {
+		91F70AEE2CCF87D700DE7095 = {
 			isa = PBXGroup;
 			children = (
-				3B68E3E42CB01B9900FE4003 /* 4HW */,
-				3B68E3FB2CB01B9B00FE4003 /* 4HWTests */,
-				3B68E4052CB01B9B00FE4003 /* 4HWUITests */,
-				3B68E3E32CB01B9900FE4003 /* Products */,
+				91F70AF92CCF87D700DE7095 /* 6th_HW_Kimdowon */,
+				91F70B102CCF87D800DE7095 /* 6th_HW_KimdowonTests */,
+				91F70B1A2CCF87D800DE7095 /* 6th_HW_KimdowonUITests */,
+				91F70AF82CCF87D700DE7095 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3B68E3E32CB01B9900FE4003 /* Products */ = {
+		91F70AF82CCF87D700DE7095 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B68E3E22CB01B9900FE4003 /* 4HW.app */,
-				3B68E3F82CB01B9B00FE4003 /* 4HWTests.xctest */,
-				3B68E4022CB01B9B00FE4003 /* 4HWUITests.xctest */,
+				91F70AF72CCF87D700DE7095 /* 6th_HW_Kimdowon.app */,
+				91F70B0D2CCF87D800DE7095 /* 6th_HW_KimdowonTests.xctest */,
+				91F70B172CCF87D800DE7095 /* 6th_HW_KimdowonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,134 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B68E3E12CB01B9900FE4003 /* 4HW */ = {
+		91F70AF62CCF87D700DE7095 /* 6th_HW_Kimdowon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B68E40B2CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HW" */;
+			buildConfigurationList = 91F70B202CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_Kimdowon" */;
 			buildPhases = (
-				3B68E3DE2CB01B9900FE4003 /* Sources */,
-				3B68E3DF2CB01B9900FE4003 /* Frameworks */,
-				3B68E3E02CB01B9900FE4003 /* Resources */,
+				91F70AF32CCF87D700DE7095 /* Sources */,
+				91F70AF42CCF87D700DE7095 /* Frameworks */,
+				91F70AF52CCF87D700DE7095 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3B68E3E42CB01B9900FE4003 /* 4HW */,
+				91F70AF92CCF87D700DE7095 /* 6th_HW_Kimdowon */,
 			);
-			name = 4HW;
+			name = 6th_HW_Kimdowon;
 			packageProductDependencies = (
 			);
-			productName = 4HW;
-			productReference = 3B68E3E22CB01B9900FE4003 /* 4HW.app */;
+			productName = 6th_HW_Kimdowon;
+			productReference = 91F70AF72CCF87D700DE7095 /* 6th_HW_Kimdowon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B68E3F72CB01B9B00FE4003 /* 4HWTests */ = {
+		91F70B0C2CCF87D800DE7095 /* 6th_HW_KimdowonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B68E4102CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HWTests" */;
+			buildConfigurationList = 91F70B252CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_KimdowonTests" */;
 			buildPhases = (
-				3B68E3F42CB01B9B00FE4003 /* Sources */,
-				3B68E3F52CB01B9B00FE4003 /* Frameworks */,
-				3B68E3F62CB01B9B00FE4003 /* Resources */,
+				91F70B092CCF87D800DE7095 /* Sources */,
+				91F70B0A2CCF87D800DE7095 /* Frameworks */,
+				91F70B0B2CCF87D800DE7095 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B68E3FA2CB01B9B00FE4003 /* PBXTargetDependency */,
+				91F70B0F2CCF87D800DE7095 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3B68E3FB2CB01B9B00FE4003 /* 4HWTests */,
+				91F70B102CCF87D800DE7095 /* 6th_HW_KimdowonTests */,
 			);
-			name = 4HWTests;
+			name = 6th_HW_KimdowonTests;
 			packageProductDependencies = (
 			);
-			productName = 4HWTests;
-			productReference = 3B68E3F82CB01B9B00FE4003 /* 4HWTests.xctest */;
+			productName = 6th_HW_KimdowonTests;
+			productReference = 91F70B0D2CCF87D800DE7095 /* 6th_HW_KimdowonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3B68E4012CB01B9B00FE4003 /* 4HWUITests */ = {
+		91F70B162CCF87D800DE7095 /* 6th_HW_KimdowonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B68E4132CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HWUITests" */;
+			buildConfigurationList = 91F70B282CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_KimdowonUITests" */;
 			buildPhases = (
-				3B68E3FE2CB01B9B00FE4003 /* Sources */,
-				3B68E3FF2CB01B9B00FE4003 /* Frameworks */,
-				3B68E4002CB01B9B00FE4003 /* Resources */,
+				91F70B132CCF87D800DE7095 /* Sources */,
+				91F70B142CCF87D800DE7095 /* Frameworks */,
+				91F70B152CCF87D800DE7095 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3B68E4042CB01B9B00FE4003 /* PBXTargetDependency */,
+				91F70B192CCF87D800DE7095 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				3B68E4052CB01B9B00FE4003 /* 4HWUITests */,
+				91F70B1A2CCF87D800DE7095 /* 6th_HW_KimdowonUITests */,
 			);
-			name = 4HWUITests;
+			name = 6th_HW_KimdowonUITests;
 			packageProductDependencies = (
 			);
-			productName = 4HWUITests;
-			productReference = 3B68E4022CB01B9B00FE4003 /* 4HWUITests.xctest */;
+			productName = 6th_HW_KimdowonUITests;
+			productReference = 91F70B172CCF87D800DE7095 /* 6th_HW_KimdowonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3B68E3DA2CB01B9900FE4003 /* Project object */ = {
+		91F70AEF2CCF87D700DE7095 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1600;
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					3B68E3E12CB01B9900FE4003 = {
+					91F70AF62CCF87D700DE7095 = {
 						CreatedOnToolsVersion = 16.0;
 					};
-					3B68E3F72CB01B9B00FE4003 = {
+					91F70B0C2CCF87D800DE7095 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 3B68E3E12CB01B9900FE4003;
+						TestTargetID = 91F70AF62CCF87D700DE7095;
 					};
-					3B68E4012CB01B9B00FE4003 = {
+					91F70B162CCF87D800DE7095 = {
 						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 3B68E3E12CB01B9900FE4003;
+						TestTargetID = 91F70AF62CCF87D700DE7095;
 					};
 				};
 			};
-			buildConfigurationList = 3B68E3DD2CB01B9900FE4003 /* Build configuration list for PBXProject "4HW" */;
+			buildConfigurationList = 91F70AF22CCF87D700DE7095 /* Build configuration list for PBXProject "6th_HW_Kimdowon" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 3B68E3D92CB01B9900FE4003;
+			mainGroup = 91F70AEE2CCF87D700DE7095;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 3B68E3E32CB01B9900FE4003 /* Products */;
+			productRefGroup = 91F70AF82CCF87D700DE7095 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B68E3E12CB01B9900FE4003 /* 4HW */,
-				3B68E3F72CB01B9B00FE4003 /* 4HWTests */,
-				3B68E4012CB01B9B00FE4003 /* 4HWUITests */,
+				91F70AF62CCF87D700DE7095 /* 6th_HW_Kimdowon */,
+				91F70B0C2CCF87D800DE7095 /* 6th_HW_KimdowonTests */,
+				91F70B162CCF87D800DE7095 /* 6th_HW_KimdowonUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3B68E3E02CB01B9900FE4003 /* Resources */ = {
+		91F70AF52CCF87D700DE7095 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E3F62CB01B9B00FE4003 /* Resources */ = {
+		91F70B0B2CCF87D800DE7095 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E4002CB01B9B00FE4003 /* Resources */ = {
+		91F70B152CCF87D800DE7095 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -232,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3B68E3DE2CB01B9900FE4003 /* Sources */ = {
+		91F70AF32CCF87D700DE7095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E3F42CB01B9B00FE4003 /* Sources */ = {
+		91F70B092CCF87D800DE7095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3B68E3FE2CB01B9B00FE4003 /* Sources */ = {
+		91F70B132CCF87D800DE7095 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3B68E3FA2CB01B9B00FE4003 /* PBXTargetDependency */ = {
+		91F70B0F2CCF87D800DE7095 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B68E3E12CB01B9900FE4003 /* 4HW */;
-			targetProxy = 3B68E3F92CB01B9B00FE4003 /* PBXContainerItemProxy */;
+			target = 91F70AF62CCF87D700DE7095 /* 6th_HW_Kimdowon */;
+			targetProxy = 91F70B0E2CCF87D800DE7095 /* PBXContainerItemProxy */;
 		};
-		3B68E4042CB01B9B00FE4003 /* PBXTargetDependency */ = {
+		91F70B192CCF87D800DE7095 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B68E3E12CB01B9900FE4003 /* 4HW */;
-			targetProxy = 3B68E4032CB01B9B00FE4003 /* PBXContainerItemProxy */;
+			target = 91F70AF62CCF87D700DE7095 /* 6th_HW_Kimdowon */;
+			targetProxy = 91F70B182CCF87D800DE7095 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3B68E40C2CB01B9B00FE4003 /* Debug */ = {
+		91F70B212CCF87D800DE7095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -278,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PG4DAQ672A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 4HW/Info.plist;
+				INFOPLIST_FILE = 6th_HW_Kimdowon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -289,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HW";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-Kimdowon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -297,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		3B68E40D2CB01B9B00FE4003 /* Release */ = {
+		91F70B222CCF87D800DE7095 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -306,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = PG4DAQ672A;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = 4HW/Info.plist;
+				INFOPLIST_FILE = 6th_HW_Kimdowon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HW";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-Kimdowon";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -325,7 +338,7 @@
 			};
 			name = Release;
 		};
-		3B68E40E2CB01B9B00FE4003 /* Debug */ = {
+		91F70B232CCF87D800DE7095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -388,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		3B68E40F2CB01B9B00FE4003 /* Release */ = {
+		91F70B242CCF87D800DE7095 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -444,7 +457,7 @@
 			};
 			name = Release;
 		};
-		3B68E4112CB01B9B00FE4003 /* Debug */ = {
+		91F70B262CCF87D800DE7095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,16 +467,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HWTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-KimdowonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4HW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4HW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6th_HW_Kimdowon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/6th_HW_Kimdowon";
 			};
 			name = Debug;
 		};
-		3B68E4122CB01B9B00FE4003 /* Release */ = {
+		91F70B272CCF87D800DE7095 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,16 +486,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HWTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-KimdowonTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/4HW.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/4HW";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/6th_HW_Kimdowon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/6th_HW_Kimdowon";
 			};
 			name = Release;
 		};
-		3B68E4142CB01B9B00FE4003 /* Debug */ = {
+		91F70B292CCF87D800DE7095 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -490,16 +503,16 @@
 				DEVELOPMENT_TEAM = PG4DAQ672A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HWUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-KimdowonUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 4HW;
+				TEST_TARGET_NAME = 6th_HW_Kimdowon;
 			};
 			name = Debug;
 		};
-		3B68E4152CB01B9B00FE4003 /* Release */ = {
+		91F70B2A2CCF87D800DE7095 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -507,55 +520,55 @@
 				DEVELOPMENT_TEAM = PG4DAQ672A;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "dowon.-HWUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "iOS.-th-HW-KimdowonUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = 4HW;
+				TEST_TARGET_NAME = 6th_HW_Kimdowon;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B68E3DD2CB01B9900FE4003 /* Build configuration list for PBXProject "4HW" */ = {
+		91F70AF22CCF87D700DE7095 /* Build configuration list for PBXProject "6th_HW_Kimdowon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B68E40E2CB01B9B00FE4003 /* Debug */,
-				3B68E40F2CB01B9B00FE4003 /* Release */,
+				91F70B232CCF87D800DE7095 /* Debug */,
+				91F70B242CCF87D800DE7095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B68E40B2CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HW" */ = {
+		91F70B202CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_Kimdowon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B68E40C2CB01B9B00FE4003 /* Debug */,
-				3B68E40D2CB01B9B00FE4003 /* Release */,
+				91F70B212CCF87D800DE7095 /* Debug */,
+				91F70B222CCF87D800DE7095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B68E4102CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HWTests" */ = {
+		91F70B252CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_KimdowonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B68E4112CB01B9B00FE4003 /* Debug */,
-				3B68E4122CB01B9B00FE4003 /* Release */,
+				91F70B262CCF87D800DE7095 /* Debug */,
+				91F70B272CCF87D800DE7095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B68E4132CB01B9B00FE4003 /* Build configuration list for PBXNativeTarget "4HWUITests" */ = {
+		91F70B282CCF87D800DE7095 /* Build configuration list for PBXNativeTarget "6th_HW_KimdowonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3B68E4142CB01B9B00FE4003 /* Debug */,
-				3B68E4152CB01B9B00FE4003 /* Release */,
+				91F70B292CCF87D800DE7095 /* Debug */,
+				91F70B2A2CCF87D800DE7095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3B68E3DA2CB01B9900FE4003 /* Project object */;
+	rootObject = 91F70AEF2CCF87D700DE7095 /* Project object */;
 }
